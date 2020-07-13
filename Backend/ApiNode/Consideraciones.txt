@@ -1,0 +1,35 @@
+Enpoints:
+
+http://localhost:3000/change_money/conversion/ POST (BODY {
+	"numberDolares":2.9
+
+
+})(ejemplo) Este enpoint permite cambiar de dolares a euros
+
+http://localhost:3000/change_money/conversion/ GET (Este enpoint es adicional permite listar lo guardado de la conversion"
+
+Utilice la libreria Koa para el desarrollo de las apis.
+npm install para instalar las librerias
+Antes de probar el test se debe modificar el siguiente archivo :
+\ExamenTecnicoNodejs\node_modules\superagent\lib\node\parsers\json.js
+- Instalar el siguiente package npm install -g win-node-env para poder usar el test
+-En la linea 11 se debe poner:var body = res.text || JSON.parse(res.text); (Para poder probar el post)
+-En caso que se quiera probar el get seria de esta manera:var body = res.text && JSON.parse(res.text);  como se estuvo al inicio
+
+Comandos:
+ 
+npm run develop (Para correr el api)
+npm run test (Para hacer las pruebas)
+
+Se conecto a una base de datos mongo db
+
+Nombre de Base de Datos:BDMoneyChange
+Nombre de la tabla : conversion
+cadena de conexion:mongodb://localhost:27017
+
+Adicionalmente se implemento graphql:
+
+uri:http://localhost:3000/change_money/graphql
+La imagen para el uso del graphql se encuentra en graphql.png
+uri:http://localhost:3000/docs#/
+Esta uri representa la documentacion de las apis la imagen se muestra en el archivo Doc.png

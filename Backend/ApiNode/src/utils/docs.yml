@@ -1,0 +1,74 @@
+swagger: '2.0'
+
+info:
+  version: '1.0.0'
+  title: APIS
+  description: 'APIS'
+
+paths:
+  /change_money/conversion/:
+    get:
+      tags:
+        - conversion
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Success
+          schema:
+            title: average
+            type: array
+            items:
+              $ref: '#/definitions/conversion'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      tags:
+        - conversion
+      produces:
+        - application/json
+      parameters:
+        - name: Body
+          in: body
+          schema:
+               properties:
+                 numberDolares:
+                   type: number
+      responses:
+        '200':
+          description: Success
+          schema:
+            title: conversion
+            type: array
+            items:
+              $ref: '#/definitions/conversion'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+
+ 
+definitions:    
+  conversion:
+   type: object
+   properties:
+     numberDolares:
+        type: number
+     numberEuros:
+        type: number
+
+  Error:
+    type: object
+    properties:
+      title:
+        type: string
+      type:
+        type: string
+      detail:
+        type: string
+      instance:
+        type: string
+      invalidparams:
+        type: string

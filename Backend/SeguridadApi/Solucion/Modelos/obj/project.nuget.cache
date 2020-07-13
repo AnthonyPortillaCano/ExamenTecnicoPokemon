@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y+8cUzxk0ENzb3NSf7heie/UFOVcCgIhFmcnPDYv33If9MZCM6p3icc+UYUVUbLDUMFyY/DEbihBwuh+pjfJlg==",
+  "success": true,
+  "projectFilePath": "E:\\NetCore3.1Cursos\\DemoTecnico\\Backend\\SeguridadApi\\Solucion\\Modelos\\Modelos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ANTHONY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

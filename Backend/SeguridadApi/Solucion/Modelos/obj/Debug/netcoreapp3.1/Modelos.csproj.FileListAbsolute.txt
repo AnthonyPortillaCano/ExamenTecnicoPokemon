@@ -1,0 +1,9 @@
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\bin\Debug\netcoreapp3.1\Modelos.deps.json
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\bin\Debug\netcoreapp3.1\Modelos.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\bin\Debug\netcoreapp3.1\Modelos.pdb
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.csprojAssemblyReference.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfoInputs.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfo.cs
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.csproj.CoreCompileInputs.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Modelos\obj\Debug\netcoreapp3.1\Modelos.pdb

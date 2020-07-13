@@ -1,0 +1,28 @@
+input ConversionInput {
+  numberDolares: Float!
+
+}
+
+
+type ConversionTrans {
+ _id:String
+  numberDolares: Float
+  numberEuros: Float
+
+
+}
+type ConversionQuery {
+  numberDolares: Float
+  numberEuros: Float
+
+
+}
+type Mutation {
+  addConversion(input:ConversionInput!): ConversionTrans
+}
+
+type Query {
+  conversion(input:ConversionInput!
+ 
+  ): [ConversionQuery]
+}

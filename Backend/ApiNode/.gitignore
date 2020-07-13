@@ -1,0 +1,4 @@
+# Logs
+*.log
+*-lock.json
+node_modules/

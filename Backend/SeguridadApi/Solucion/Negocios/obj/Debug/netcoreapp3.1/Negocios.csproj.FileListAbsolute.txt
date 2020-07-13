@@ -1,0 +1,14 @@
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Negocios.deps.json
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Negocios.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Negocios.pdb
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Datos.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Modelos.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Datos.pdb
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\bin\Debug\netcoreapp3.1\Modelos.pdb
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.csprojAssemblyReference.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.AssemblyInfoInputs.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.AssemblyInfo.cs
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.csproj.CoreCompileInputs.cache
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.csproj.CopyComplete
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.dll
+E:\NetCore3.1Cursos\DemoTecnico\Backend\SeguridadApi\Solucion\Negocios\obj\Debug\netcoreapp3.1\Negocios.pdb
