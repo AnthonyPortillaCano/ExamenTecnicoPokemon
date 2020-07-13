@@ -6,58 +6,35 @@ info:
   description: 'APIS'
 
 paths:
-  /change_money/conversion/:
+  /pokemon/listpokemones?limite=10:
     get:
       tags:
-        - conversion
+        - pokemon
       produces:
         - application/json
       responses:
         '200':
           description: Success
           schema:
-            title: average
+            title: pokemon
             type: array
             items:
-              $ref: '#/definitions/conversion'
+              $ref: '#/definitions/pokemon'
         '500':
           description: Internal Server Error
           schema:
             $ref: '#/definitions/Error'
-    post:
-      tags:
-        - conversion
-      produces:
-        - application/json
-      parameters:
-        - name: Body
-          in: body
-          schema:
-               properties:
-                 numberDolares:
-                   type: number
-      responses:
-        '200':
-          description: Success
-          schema:
-            title: conversion
-            type: array
-            items:
-              $ref: '#/definitions/conversion'
-        '500':
-          description: Internal Server Error
-          schema:
-            $ref: '#/definitions/Error'
+ 
 
  
 definitions:    
-  conversion:
+  pokemon:
    type: object
    properties:
-     numberDolares:
-        type: number
+     name:
+        type: string
      numberEuros:
-        type: number
+        type: string
 
   Error:
     type: object

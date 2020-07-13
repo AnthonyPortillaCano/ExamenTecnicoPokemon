@@ -1,28 +1,20 @@
-input ConversionInput {
-  numberDolares: Float!
+input PokemonInput {
+  limite: Float
 
 }
 
 
-type ConversionTrans {
- _id:String
-  numberDolares: Float
-  numberEuros: Float
+
+type PokemonesQuery {
+  name: String
+  url: String
 
 
 }
-type ConversionQuery {
-  numberDolares: Float
-  numberEuros: Float
 
-
-}
-type Mutation {
-  addConversion(input:ConversionInput!): ConversionTrans
-}
 
 type Query {
-  conversion(input:ConversionInput!
+  listpokemones(input:PokemonInput!
  
-  ): [ConversionQuery]
+  ): [PokemonesQuery]
 }

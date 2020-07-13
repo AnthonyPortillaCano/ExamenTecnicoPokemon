@@ -43,7 +43,7 @@ routes.map(r => {
 })
 serverGraphql.applyMiddleware({
   app: server,
-  path: '/change_money/graphql',
+  path: '/pokemones/graphql',
 })
 /* istanbul ignore if  */
 if (env.NODE_ENV !== 'test') {
